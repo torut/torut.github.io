@@ -61,8 +61,18 @@
       background: var(--card-bg);
       border-radius: 16px;
       box-shadow: var(--shadow);
-      padding: 32px 28px 24px;
-      border-top: 4px solid var(--main);
+      padding: 110px 28px 24px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cover {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 110px;
+      background: linear-gradient(135deg, var(--main) 0%, #2a8be6 100%);
     }
 
     .header {
@@ -76,8 +86,10 @@
       height: 120px;
       border-radius: 50%;
       object-fit: cover;
-      margin: 0 auto 18px;
-      box-shadow: 0 0 0 3px var(--card-bg), 0 0 0 5px var(--main);
+      margin: -68px auto 14px;
+      position: relative;
+      z-index: 1;
+      box-shadow: 0 0 0 4px var(--card-bg), 0 4px 10px rgba(0, 0, 0, 0.1);
     }
 
     .name {
@@ -188,6 +200,7 @@
 </head>
 <body>
   <main class="card">
+    <div class="cover" aria-hidden="true"></div>
     <header class="header">
       <img class="avatar" src="https://github.com/torut.png" alt="Toru TAMURA のアバター" loading="lazy">
       <h1 class="name">Toru TAMURA</h1>
