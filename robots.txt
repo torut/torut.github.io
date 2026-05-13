@@ -1,0 +1,17 @@
+# https://toru1231.tamulab.jp/robots.txt
+# All crawlers are welcome — this is a public profile page.
+
+User-agent: *
+Allow: /
+
+# Explicit allowlist for Facebook crawlers
+# (Facebook Sharing Debugger expects this even though Allow: / above covers it)
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: facebookcatalog
+Allow: /
+
+# Twitter / X
+User-agent: Twitterbot
+Allow: /
