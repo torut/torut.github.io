@@ -62,7 +62,7 @@ body {
   left: 0;
   right: 0;
   height: 110px;
-  background: linear-gradient(135deg, var(--main) 0%, #2a8be6 100%);
+  background: var(--main) url('../image/cover.jpg') center top/cover no-repeat;
 }
 
 .header {
