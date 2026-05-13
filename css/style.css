@@ -72,7 +72,7 @@ body {
 
 .avatars {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   gap: 12px;
   margin: -68px auto 14px;
