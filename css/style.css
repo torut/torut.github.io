@@ -219,17 +219,16 @@ body {
   flex-shrink: 0;
 }
 .website .url {
-  flex: 1;
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 0.02em;
-  text-align: center;
 }
 .website .arrow {
   width: 14px;
   height: 14px;
   flex-shrink: 0;
   opacity: 0.5;
+  margin-left: auto;
 }
 
 footer {
