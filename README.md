@@ -8,7 +8,8 @@
 
 | ファイル | 役割 |
 |---|---|
-| `index.html` | プロフィール本体（HTML + インライン CSS） |
+| `index.html` | プロフィール本体（HTML マークアップ） |
+| `css/style.css` | プロフィールページのスタイル定義 |
 | `CNAME` | GitHub Pages のカスタムドメイン設定（`toru1231.tamulab.jp`） |
 | `.nojekyll` | GitHub Pages の Jekyll 処理を無効化（プレーン HTML をそのまま配信） |
 | `README.md` | 本ファイル |
