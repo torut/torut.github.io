@@ -51,7 +51,9 @@ body {
   body { padding: 16px 12px; }
   .card { padding: 96px 18px 20px; }
   .cover { height: 96px; }
-  .avatar { margin-top: -60px; }
+  .avatars { margin-top: -50px; gap: 10px; }
+  .avatar-main { width: 90px; height: 90px; }
+  .avatar-sub { width: 60px; height: 60px; }
 }
 
 .cover {
@@ -68,16 +70,32 @@ body {
   margin-bottom: 22px;
 }
 
-.avatar {
-  display: block;
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
+.avatars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
   margin: -68px auto 14px;
   position: relative;
   z-index: 1;
+}
+
+.avatar {
+  display: block;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatar-main {
+  width: 120px;
+  height: 120px;
   box-shadow: 0 0 0 4px var(--card-bg), 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.avatar-sub {
+  width: 80px;
+  height: 80px;
+  box-shadow: 0 0 0 3px var(--card-bg), 0 3px 8px rgba(0, 0, 0, 0.08);
 }
 
 .name {

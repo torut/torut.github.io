@@ -11,6 +11,8 @@
 | `index.html` | プロフィール本体（HTML マークアップ） |
 | `css/style.css` | プロフィールページのスタイル定義 |
 | `image/favicon.png` | サイトの favicon / apple-touch-icon（180×180 PNG） |
+| `image/tamulab.png` | プロフィール用 tamulab.jp アイコン（240×240 PNG） |
+| `image/facebook.jpg` | プロフィール用 Facebook 写真（240×240 JPEG） |
 | `CNAME` | GitHub Pages のカスタムドメイン設定（`toru1231.tamulab.jp`） |
 | `.nojekyll` | GitHub Pages の Jekyll 処理を無効化（プレーン HTML をそのまま配信） |
 | `README.md` | 本ファイル |
