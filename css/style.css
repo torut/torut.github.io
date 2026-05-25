@@ -162,6 +162,16 @@ body {
   color: #1f2937;
 }
 
+.certifications {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 22px;
+}
+.certifications iframe {
+  color-scheme: light;
+  background: #ffffff;
+}
+
 .sns {
   list-style: none;
   padding: 0;
